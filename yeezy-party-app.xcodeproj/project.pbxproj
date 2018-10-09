@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		F318033A216BEDC2003B8DB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3180339216BEDC2003B8DB1 /* AppDelegate.swift */; };
-		F318033C216BEDC2003B8DB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F318033B216BEDC2003B8DB1 /* ViewController.swift */; };
+		F318033C216BEDC2003B8DB1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F318033B216BEDC2003B8DB1 /* MainView.swift */; };
 		F318033F216BEDC2003B8DB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F318033D216BEDC2003B8DB1 /* Main.storyboard */; };
 		F3180341216BEDC2003B8DB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3180340216BEDC2003B8DB1 /* Assets.xcassets */; };
 		F3180344216BEDC2003B8DB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3180342216BEDC2003B8DB1 /* LaunchScreen.storyboard */; };
+		F318034C216BEDEE003B8DB1 /* NewParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F318034B216BEDEE003B8DB1 /* NewParty.swift */; };
+		F318034E216BEE07003B8DB1 /* PartyDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F318034D216BEE07003B8DB1 /* PartyDetails.swift */; };
+		F3180350216BEE15003B8DB1 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F318034F216BEE15003B8DB1 /* UserSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F3180336216BEDC2003B8DB1 /* yeezy-party-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yeezy-party-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3180339216BEDC2003B8DB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F318033B216BEDC2003B8DB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F318033B216BEDC2003B8DB1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		F318033E216BEDC2003B8DB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3180340216BEDC2003B8DB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3180343216BEDC2003B8DB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3180345216BEDC2003B8DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F318034B216BEDEE003B8DB1 /* NewParty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewParty.swift; sourceTree = "<group>"; };
+		F318034D216BEE07003B8DB1 /* PartyDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyDetails.swift; sourceTree = "<group>"; };
+		F318034F216BEE15003B8DB1 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				F3180339216BEDC2003B8DB1 /* AppDelegate.swift */,
-				F318033B216BEDC2003B8DB1 /* ViewController.swift */,
+				F318033B216BEDC2003B8DB1 /* MainView.swift */,
+				F318034B216BEDEE003B8DB1 /* NewParty.swift */,
+				F318034D216BEE07003B8DB1 /* PartyDetails.swift */,
+				F318034F216BEE15003B8DB1 /* UserSettings.swift */,
 				F318033D216BEDC2003B8DB1 /* Main.storyboard */,
 				F3180340216BEDC2003B8DB1 /* Assets.xcassets */,
 				F3180342216BEDC2003B8DB1 /* LaunchScreen.storyboard */,
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F318033C216BEDC2003B8DB1 /* ViewController.swift in Sources */,
+				F318034C216BEDEE003B8DB1 /* NewParty.swift in Sources */,
+				F318033C216BEDC2003B8DB1 /* MainView.swift in Sources */,
 				F318033A216BEDC2003B8DB1 /* AppDelegate.swift in Sources */,
+				F3180350216BEE15003B8DB1 /* UserSettings.swift in Sources */,
+				F318034E216BEE07003B8DB1 /* PartyDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
